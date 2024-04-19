@@ -1,0 +1,54 @@
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.language {
+  margin-top: 20px;
+}
+
+.language h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.languagePill {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+}

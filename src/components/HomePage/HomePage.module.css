@@ -1,0 +1,39 @@
+.wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2b7a04;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #014106;
+}
+
+/* .viewFollowersButton {
+  margin-top: 20px;
+
+} */

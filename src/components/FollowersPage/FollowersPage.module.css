@@ -1,0 +1,47 @@
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.followerList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.followerItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 20vw;
+    margin: 22px;
+    background-color:blanchedalmond;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+
+  
+}
+
+.repoAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.followerItem  {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.followerItem p:hover {
+    color: #007bff;
+}
+
